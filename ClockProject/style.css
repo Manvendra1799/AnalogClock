@@ -1,0 +1,76 @@
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #676767;
+}
+
+.container {
+    height: 57vmin;
+    width: 57vmin;
+    border-radius: 2vmin;
+    background: url(./clock.png) no-repeat;
+    background-size:100%;
+    position: relative;
+  
+}
+
+#minuteHand, #hourHand ,#secondHand{
+    background-color: black;
+    position: absolute;
+    border-radius: 4rem;
+    transform-origin: bottom;
+  
+
+}
+
+
+#minuteHand{
+    height: 31%;
+    width: 2%;
+    top: 18.5%;
+    left: 49%;
+    opacity:0.8;
+   
+}
+
+
+#hourHand{
+    height: 25%;
+    width: 2.5%;
+    top: 24.2%;
+    left: 48.1%;
+
+   
+}
+
+#secondHand{
+    height: 35%;
+    width: 1.1%;
+    top: 14%;
+    left: 49%;
+    opacity:0.9;
+
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+h1{
+    text-align: center;
+    padding: 4vmin;
+    color: #F5F5F5;
+    background: #2C2C2C;
+    font-size: 3rem;
+}

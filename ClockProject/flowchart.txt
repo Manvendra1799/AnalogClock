@@ -1,0 +1,10 @@
+step1 : Think, of logic How are you going to rotate the Hands of clock
+step2 : Think, How to get actual time, data.
+step3 : How, to put it into your code.
+step4 : code your logic and think about of where to place which line of code.
+step5 : last add to css.
+
+
+setInterval( )
+transform:rotate()is used
+transform-origin:bottom.
